@@ -784,24 +784,15 @@ body > textarea {
   border: 0;
 }
 .tui-image-editor-container .color-picker-control {
-  position: absolute;
-  display: none;
-  z-index: 99;
-  width: 192px;
-  background-color: #fff;
-  box-shadow: 0 3px 22px 6px rgba(0,0,0,0.15);
-  padding: 16px;
-  border-radius: 2px;
+  width: auto !important;
 }
 .tui-image-editor-container .color-picker-control .tui-colorpicker-palette-toggle-slider {
   display: none;
 }
 .tui-image-editor-container .color-picker-control .tui-colorpicker-palette-button {
-  border: 0;
-  border-radius: 100%;
-  margin: 2px;
-  background-size: cover;
-  font-size: 1px;
+  font-size: 4px !important;
+  border-radius: 50% !important;
+  height: 16px;
 }
 .tui-image-editor-container .color-picker-control .tui-colorpicker-palette-button[title='#ffffff'] {
   border: 1px solid #ccc;

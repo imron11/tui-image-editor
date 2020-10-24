@@ -34,11 +34,7 @@
 }
 .tui-image-editor-container .tui-image-editor-header {
 /* BUTTON AND LOGO */
-  min-width: 533px;
-  position: absolute;
-  background-color: #151515;
-  top: 0;
-  width: 100%;
+  display: none;
 }
 .tui-image-editor-container .tui-image-editor-header-buttons,
 .tui-image-editor-container .tui-image-editor-controls-buttons {

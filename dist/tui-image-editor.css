@@ -4,6 +4,11 @@
  * @author NHN FE Development Lab <dl_javascript@nhn.com>
  * @license MIT
  */
+@font-face {
+  font-family: JMHTypeWriterDry;
+  src: url("font/JMHTypeWriterDry.otf") format("opentype");
+}
+
  body > textarea {
   position: fixed !important;
 }
